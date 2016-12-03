@@ -10,9 +10,9 @@ Template.game.events({
 		else {
 		Session.set("running",true)
 		sizeincreaser = setInterval(function(){
-			$(".bottle").css({top:(($(".bottle").position().top-1)+"px")})
-			$(".bottle").height($(".bottle").height()+1)
-		}, 100);
+			$(".bottle").css({top:(($(".bottle").position().top-4)+"px")})
+			$(".bottle").height($(".bottle").height()+4)
+		}, 50);
 
 		}
 	}
